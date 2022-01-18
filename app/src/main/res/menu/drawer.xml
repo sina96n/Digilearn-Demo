@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/first">
+
+
+        <item
+            android:id="@+id/profile_d"
+            android:title="Profile"
+            android:icon="@drawable/ic_person_outline_black_24dp">
+        </item>
+
+        <item
+            android:id="@+id/home_d"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp">
+        </item>
+
+        <item
+            android:id="@+id/bookmark_d"
+            android:title="Bookmarks"
+            android:icon="@drawable/ic_bookmark_border_black_24dp">
+        </item>
+
+        <item
+            android:id="@+id/search_d"
+            android:title="Search"
+            android:icon="@drawable/ic_search_black_24dp">
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/second">
+
+        <item
+            android:id="@+id/calculator_m"
+            android:title="Scientific Calculator"
+            android:icon="@drawable/ic_functions_black_24dp">
+        </item>
+
+    </group>
+
+    <group
+        android:id="@+id/third">
+
+        <item
+            android:id="@+id/invite_d"
+            android:title="Invite friends"
+            android:icon="@drawable/ic_group_add_black_24dp">
+        </item>
+        <item
+            android:id="@+id/exit_d"
+            android:title="Exit"
+            android:icon="@drawable/ic_exit_to_app_black_24dp" >
+        </item>
+
+     </group>
+
+
+</menu>

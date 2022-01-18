@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luncher">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/digital_learning"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Mathematics.BMI.BMI_result"
+            android:parentActivityName=".Mathematics.BMI.BMI"
+            android:theme="@style/bar_included" />
+        <activity
+            android:name=".Mathematics.BMI.BMI"
+            android:parentActivityName=".Home"
+            android:theme="@style/bar_included" />
+        <activity
+            android:name=".Details.About_practical"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Mathematics.Calculator"
+            android:parentActivityName=".Home"
+            android:theme="@style/calculator" />
+        <activity
+            android:name=".Mathematics.Mathematics"
+            android:parentActivityName=".Home"
+            android:theme="@style/bar_included" />
+        <activity
+            android:name=".Mathematics.Root_calculator"
+            android:parentActivityName=".Home"
+            android:theme="@style/bar_included" />
+        <activity
+            android:name=".Books.Practical"
+            android:parentActivityName=".Home"
+            android:theme="@style/full_screen" />
+        <activity android:name=".Home" />
+        <activity android:name=".Luncher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

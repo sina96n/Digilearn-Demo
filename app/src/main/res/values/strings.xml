@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Luncher</string>
+    <string name="search_hint"><![CDATA[Search Books & Calculators]]></string>
+    <string name="open" />
+    <string name="close" />
+    <string name="drop_table">DROP IF EXSTS</string>
+    <string name="quadratic_general">quadratic general</string>
+    <string name="digital_learning">Digital Learning</string>
+    <string-array name="Gender_spinner">
+        <item>your Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="bmi_text">Body mass index (BMI) is a value derived from the mass (weight) and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is universally expressed in units of kg/m2, resulting from mass in kilograms and height in metres.</string>
+    <string name="bmi_text_home">BMI is important as it is widely regarded that your chances of having a longer and healthier life are improved if you have a healthy BMI.</string>
+</resources>

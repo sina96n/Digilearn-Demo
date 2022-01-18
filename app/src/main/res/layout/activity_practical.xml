@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Books.Practical"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="487dp"
+                android:layout_height="293dp"
+                android:layout_gravity="center"
+                android:src="@drawable/universityoxford" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:text="Practical English Usage"
+                        android:textColor="#ffff"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingStart="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingEnd="0dp"
+                        android:paddingBottom="5dp">
+
+                        <Button
+                            android:id="@+id/open_practical"
+                            android:layout_width="120dp"
+                            android:layout_height="45dp"
+                            android:layout_gravity="top"
+                            android:background="@drawable/radius_button"
+                            android:drawableStart="@drawable/ic_play_arrow_black_24dp"
+                            android:gravity="center"
+                            android:paddingStart="5dp"
+                            android:paddingEnd="5dp"
+                            android:textColor="#393939"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <Space
+                            android:layout_width="13dp"
+                            android:layout_height="match_parent" />
+
+                        <Button
+                            android:id="@+id/prac_bookmark"
+                            android:layout_width="25dp"
+                            android:layout_height="27dp"
+                            android:background="@drawable/ic_bookmark_border_white_24dp"
+                            android:textColorHint="#FFFFFF" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="4.3"
+                                    android:textColor="#ffff"
+                                    android:textSize="18sp" />
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:layout_gravity="center"
+                                    android:background="@drawable/ic_star_black_24dp" />
+
+                            </LinearLayout>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Goodreads"
+                                android:textColor="#ffff" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:paddingTop="3dp"
+                        android:paddingBottom="5dp"
+                        android:text="Written By: Michael Swan"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="20dp"
+                        android:text="Descreption:"
+                        android:textColor="#FFFFFF" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="130dp"
+                    android:src="@drawable/practical" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingRight="29dp"
+                android:text="Practical English Usage is a standard reference book aimed at foreign learners of English and their teachers written by Michael Swan. Published by Oxford University Press, it has sold over 2 million copies since the first edition was published in 1980."
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/about_prac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:text="About this book"
+                android:gravity="start|center"
+                android:paddingEnd="20dp"
+                android:paddingStart="20dp"
+                android:textColor="#ffff"
+                android:textSize="15sp"
+                android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:text="Related"
+                android:textColor="#ffff"
+                android:textSize="18sp" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:paddingStart="20dp">
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/graminuse" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/vocad" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/vocin" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/vocel" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/b504" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/b1100" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="130dp"
+                        android:background="@drawable/wordfinder" />
+
+                    <Space
+                        android:layout_width="8dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="152dp"
+                android:layout_gravity="center"
+                android:paddingStart="5dp"
+                android:background="@drawable/logo"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

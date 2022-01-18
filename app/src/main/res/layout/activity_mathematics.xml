@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    android:gravity="top"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Mathematics.Mathematics">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="10dp"
+            android:paddingBottom="50dp"
+            android:text="solve  most of your mathematical problems here.there are functions that can help you out there."
+            android:textColor="#ffff"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="50dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/transparent">
+
+                <Button
+                    android:id="@+id/calculator_b"
+                    android:layout_width="210dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/calulator_poster"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/calculator_m"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:drawableStart="@drawable/ic_functions_black_24dp"
+                android:text="Calculator"
+                android:textColor="#ffff"
+                android:textSize="12sp"
+                android:layout_gravity="start"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="searchview">#3C4043</color>
+    <color name="menu_item">#969B9F</color>
+    <color name="transparent">#00000000</color>
+    <color name="bookmark_yellow">#FFA500</color>
+    <color name="colorSecondaryDark">#002f6c</color>
+    <color name="colorSecondaryLite">#4f83cc</color>
+    <color name="colorTextonPrimary">#ffffff</color>
+    <color name="colorTextonSecondary">#ffffff</color>
+    <color name="detail_text">#94979C</color>
+</resources>
